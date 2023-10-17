@@ -42,7 +42,7 @@ server.post("/login", (req, res) => {
   if (!email || !password) {
     return res
       .status(400)
-      .json({ error: console.log("Please fill in all the required fields.") });
+      .json({ error: console.log("Please fill in all the required fields.")});
   }
   UserModel.findOne({ email: email }).then((user) => {
     if (user) {
