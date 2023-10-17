@@ -10,5 +10,5 @@ const userSchema = new mongoose.Schema({
   confPassword: String,
 });
 
-const UserModel = mongoose.model("users", userSchema, "register");
+const UserModel = mongoose.model("users", userSchema,"register");
 module.exports = UserModel;

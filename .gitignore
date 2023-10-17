@@ -6,3 +6,5 @@ node_modules/
 
 # Ignore the package-lock.json file
 package-lock.json
+
+package.json
