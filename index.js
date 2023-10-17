@@ -33,7 +33,7 @@ server.post("/register", (req, res) => {
       console.log("Something went wrong:", err);
       res
         .status(500)
-        .json({ error: "An error occurred while processing your request."});
+        .json({ error:"An error occurred while processing your request."});
     });
 });
 
